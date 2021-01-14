@@ -1,0 +1,11 @@
+C:\Users\Rick\source\repos\FashionBoutique_solution\TruckTour_solution\bin\Debug\netcoreapp2.1\TruckTour_solution.deps.json
+C:\Users\Rick\source\repos\FashionBoutique_solution\TruckTour_solution\bin\Debug\netcoreapp2.1\TruckTour_solution.runtimeconfig.json
+C:\Users\Rick\source\repos\FashionBoutique_solution\TruckTour_solution\bin\Debug\netcoreapp2.1\TruckTour_solution.runtimeconfig.dev.json
+C:\Users\Rick\source\repos\FashionBoutique_solution\TruckTour_solution\bin\Debug\netcoreapp2.1\TruckTour_solution.dll
+C:\Users\Rick\source\repos\FashionBoutique_solution\TruckTour_solution\bin\Debug\netcoreapp2.1\TruckTour_solution.pdb
+C:\Users\Rick\source\repos\FashionBoutique_solution\TruckTour_solution\obj\Debug\netcoreapp2.1\TruckTour_solution.csprojAssemblyReference.cache
+C:\Users\Rick\source\repos\FashionBoutique_solution\TruckTour_solution\obj\Debug\netcoreapp2.1\TruckTour_solution.csproj.CoreCompileInputs.cache
+C:\Users\Rick\source\repos\FashionBoutique_solution\TruckTour_solution\obj\Debug\netcoreapp2.1\TruckTour_solution.AssemblyInfoInputs.cache
+C:\Users\Rick\source\repos\FashionBoutique_solution\TruckTour_solution\obj\Debug\netcoreapp2.1\TruckTour_solution.AssemblyInfo.cs
+C:\Users\Rick\source\repos\FashionBoutique_solution\TruckTour_solution\obj\Debug\netcoreapp2.1\TruckTour_solution.dll
+C:\Users\Rick\source\repos\FashionBoutique_solution\TruckTour_solution\obj\Debug\netcoreapp2.1\TruckTour_solution.pdb
