@@ -1,0 +1,11 @@
+C:\Users\Rick\source\repos\FashionBoutique_solution\BracketsBalance_solution\bin\Debug\netcoreapp2.1\BracketsBalance_solution.deps.json
+C:\Users\Rick\source\repos\FashionBoutique_solution\BracketsBalance_solution\bin\Debug\netcoreapp2.1\BracketsBalance_solution.runtimeconfig.json
+C:\Users\Rick\source\repos\FashionBoutique_solution\BracketsBalance_solution\bin\Debug\netcoreapp2.1\BracketsBalance_solution.runtimeconfig.dev.json
+C:\Users\Rick\source\repos\FashionBoutique_solution\BracketsBalance_solution\bin\Debug\netcoreapp2.1\BracketsBalance_solution.dll
+C:\Users\Rick\source\repos\FashionBoutique_solution\BracketsBalance_solution\bin\Debug\netcoreapp2.1\BracketsBalance_solution.pdb
+C:\Users\Rick\source\repos\FashionBoutique_solution\BracketsBalance_solution\obj\Debug\netcoreapp2.1\BracketsBalance_solution.csprojAssemblyReference.cache
+C:\Users\Rick\source\repos\FashionBoutique_solution\BracketsBalance_solution\obj\Debug\netcoreapp2.1\BracketsBalance_solution.csproj.CoreCompileInputs.cache
+C:\Users\Rick\source\repos\FashionBoutique_solution\BracketsBalance_solution\obj\Debug\netcoreapp2.1\BracketsBalance_solution.AssemblyInfoInputs.cache
+C:\Users\Rick\source\repos\FashionBoutique_solution\BracketsBalance_solution\obj\Debug\netcoreapp2.1\BracketsBalance_solution.AssemblyInfo.cs
+C:\Users\Rick\source\repos\FashionBoutique_solution\BracketsBalance_solution\obj\Debug\netcoreapp2.1\BracketsBalance_solution.dll
+C:\Users\Rick\source\repos\FashionBoutique_solution\BracketsBalance_solution\obj\Debug\netcoreapp2.1\BracketsBalance_solution.pdb
