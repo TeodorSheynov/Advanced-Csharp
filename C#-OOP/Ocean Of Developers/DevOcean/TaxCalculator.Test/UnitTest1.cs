@@ -7,7 +7,7 @@ namespace TaxCalculator.Test
     [TestFixture]
     public class Tests
     {
-        private TaxCalculator taxCalculator;
+        private ITaxCalculator taxCalculator;
         private int yearOfPurchase;
         private int milesTraveled;
 
@@ -22,7 +22,7 @@ namespace TaxCalculator.Test
         {
             yearOfPurchase = 2022;
             milesTraveled = 2000;
-            Vehicle cargoShip = new CargoShip(yearOfPurchase, milesTraveled);
+            Spaceship cargoShip = new CargoShip(yearOfPurchase, milesTraveled);
 
             Assert.AreEqual(cargoShip.MilesTraveled,milesTraveled);
             Assert.AreEqual(cargoShip.YearOfPurchase,yearOfPurchase);
@@ -34,7 +34,7 @@ namespace TaxCalculator.Test
         {
             yearOfPurchase = 7800;
             milesTraveled = 2000;
-            Vehicle cargoShip;
+            Spaceship cargoShip;
 
             Assert.Throws<ArgumentException>(() => cargoShip = new CargoShip(yearOfPurchase, milesTraveled));
         }
@@ -43,7 +43,7 @@ namespace TaxCalculator.Test
         {
             yearOfPurchase = 2000;
             milesTraveled = -2;
-            Vehicle cargoShip;
+            Spaceship cargoShip;
 
             Assert.Throws<ArgumentException>(() => cargoShip = new CargoShip(yearOfPurchase, milesTraveled));
         }
@@ -51,18 +51,18 @@ namespace TaxCalculator.Test
         [Test]
         public void TestSpaceshipTaxCalculatorCalculateMethodForFamilyShip()
         {
-            Vehicle familyShip = new FamilyShip(yearOfPurchase:2300, milesTraveled:2344);
+            Spaceship familyShip = new FamilyShip(yearOfPurchase:2300, milesTraveled:2344);
             taxCalculator = new SpaceshipTax(familyShip);
 
-            Assert.AreEqual(expected: 2715, actual:taxCalculator.Calculate(yearOfCalculation:2307));
+            Assert.AreEqual(expected: 2715.00, actual:taxCalculator.Calculate(yearOfCalculation:2307));
         }
 
         [Test]
         public void TestSpaceshipTaxCalculatorCalculateMethodForCargoShip()
         {
-            Vehicle cargoShip = new CargoShip(yearOfPurchase: 2332, milesTraveled: 344789);
+            Spaceship cargoShip = new CargoShip(yearOfPurchase: 2332, milesTraveled: 344789);
             taxCalculator = new SpaceshipTax(cargoShip);
-            Assert.AreEqual(expected: 326768, taxCalculator.Calculate(yearOfCalculation:2369));
+            Assert.AreEqual(expected: 326768.00, taxCalculator.Calculate(yearOfCalculation:2369));
         }
     }
 }

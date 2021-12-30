@@ -2,20 +2,21 @@
 
 namespace TaxCalculator
 {
-    public class SpaceshipTax:TaxCalculator
+    public class SpaceshipTax:ITaxCalculator
     {
-        public SpaceshipTax(Vehicle vehicle) 
-            : base(vehicle)
+        private readonly Spaceship _spaceship;
+        public SpaceshipTax(Spaceship spaceship)
         {
+            this._spaceship = spaceship;
         }
 
-        public override int Calculate(int yearOfCalculation)
+        public  decimal Calculate(int yearOfCalculation)
         {
-            var years = yearOfCalculation - Vehicle.YearOfPurchase;
-            var miles = Vehicle.MilesTraveled / 1000;
-            var initialTax = Vehicle.InitialTax;
-            var additionalTax = Vehicle.AdditionalTax;
-            var taxDecline = Vehicle.TaxDecline;
+            var years = yearOfCalculation - _spaceship.YearOfPurchase;
+            var miles = _spaceship.MilesTraveled / 1000;
+            var initialTax = _spaceship.InitialTax;
+            var additionalTax = _spaceship.AdditionalTax;
+            var taxDecline = _spaceship.TaxDecline;
 
 
             var taxes = initialTax + miles * additionalTax - years * taxDecline;

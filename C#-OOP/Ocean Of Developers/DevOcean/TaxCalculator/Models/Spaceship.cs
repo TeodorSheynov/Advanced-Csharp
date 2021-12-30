@@ -4,21 +4,21 @@ using TaxCalculator.Models.Messages;
 
 namespace TaxCalculator.Models
 {
-    public abstract class Vehicle:IVehicle
+    public abstract class Spaceship:IVehicle
     {
        
         private int _miles;
         private int _year;
 
-        protected Vehicle(int yearOfPurchase,int milesTraveled)
+        protected Spaceship(int yearOfPurchase,int milesTraveled)
         {
             this.YearOfPurchase = yearOfPurchase;
             this.MilesTraveled = milesTraveled;
         }
 
-        public abstract int InitialTax { get;}
-        public abstract int AdditionalTax { get;}
-        public abstract int TaxDecline { get; }
+        public abstract decimal InitialTax { get;}
+        public abstract decimal AdditionalTax { get;}
+        public abstract decimal TaxDecline { get; }
 
 
         public int MilesTraveled

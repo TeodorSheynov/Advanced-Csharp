@@ -1,10 +1,10 @@
 ﻿namespace TaxCalculator.Models
 {
-    public class CargoShip:Vehicle
+    public class CargoShip:Spaceship
     {
-        private const int INITIAL_TAX_CONST=10000;
-        private const int ADDITIONAL_TAX_CONST = 1000;
-        private const int TAX_DECLINE_CONST = 736;
+        private const decimal INITIAL_TAX_CONST =10000m;
+        private const decimal ADDITIONAL_TAX_CONST = 1000m;
+        private const decimal TAX_DECLINE_CONST = 736m;
 
         public CargoShip(int yearOfPurchase, int milesTraveled) 
             : base(yearOfPurchase, milesTraveled)
@@ -12,9 +12,9 @@
 
         }
 
-        public override int InitialTax => INITIAL_TAX_CONST;
-        public override int AdditionalTax => ADDITIONAL_TAX_CONST;
-        public override int TaxDecline => TAX_DECLINE_CONST;
+        public override decimal InitialTax => INITIAL_TAX_CONST;
+        public override decimal AdditionalTax => ADDITIONAL_TAX_CONST;
+        public override decimal TaxDecline => TAX_DECLINE_CONST;
 
         
     }
