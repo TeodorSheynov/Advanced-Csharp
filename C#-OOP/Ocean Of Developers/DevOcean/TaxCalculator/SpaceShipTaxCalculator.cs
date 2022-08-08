@@ -23,7 +23,6 @@ namespace TaxCalculator
             {
                 throw new ArgumentException("It can calculate only taxes since the purchase of the vehicle :|");
             }
-
             return yearOfTaxCalculation;
         }
 
