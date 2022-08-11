@@ -4,6 +4,6 @@ namespace TaxCalculator.Factory
 {
     public interface IBuilder
     {
-        Spaceship Build();
+        object Build();
     }
 }

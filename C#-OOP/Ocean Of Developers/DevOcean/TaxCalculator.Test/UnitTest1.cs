@@ -52,7 +52,7 @@ namespace TaxCalculator.Test
         public void TestSpaceshipTaxCalculatorCalculateMethodForFamilyShip()
         {
             Spaceship familyShip = new FamilyShip(yearOfPurchase:2300, milesTraveled:2344);
-            taxCalculator = new SpaceShipTaxCalculator(familyShip);
+            taxCalculator = new SpaceshipTax(familyShip);
 
             Assert.AreEqual(expected: 2715.00, actual:taxCalculator.Calculate(yearOfCalculation:2307));
         }
@@ -61,7 +61,7 @@ namespace TaxCalculator.Test
         public void TestSpaceshipTaxCalculatorCalculateMethodForCargoShip()
         {
             Spaceship cargoShip = new CargoShip(yearOfPurchase: 2332, milesTraveled: 344789);
-            taxCalculator = new SpaceShipTaxCalculator(cargoShip);
+            taxCalculator = new SpaceshipTax(cargoShip);
             Assert.AreEqual(expected: 326768.00, taxCalculator.Calculate(yearOfCalculation:2369));
         }
     }

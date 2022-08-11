@@ -4,7 +4,7 @@ using TaxCalculator.Models.Messages;
 
 namespace TaxCalculator.Models
 {
-    public abstract class Spaceship:IVehicle,ITaxable
+    public abstract class Spaceship:IVehicle
     {
        
         private int _miles;
@@ -16,7 +16,7 @@ namespace TaxCalculator.Models
             this.MilesTraveled = milesTraveled;
         }
 
-        public abstract decimal InitialTax { get; }
+        public abstract decimal InitialTax { get;}
         public abstract decimal AdditionalTax { get;}
         public abstract decimal TaxDecline { get; }
 

@@ -5,7 +5,7 @@ namespace TaxCalculator.Factory
 {
     public class SpaceshipBuilder:IBuilder
     {
-        public Spaceship Build()
+        public object Build()
         {
             Console.WriteLine("Year of purchase: ");
             if (!int.TryParse(Console.ReadLine(), out var yearOfPurchase))
